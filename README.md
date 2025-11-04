@@ -7,7 +7,6 @@
 To write a program to perform DSBSC modulation and demodulation using SCI LAB and study its spectral characteristics
 
 # EQUIPMENTS REQUIRED
-
 •	Computer with i3 Processor
 •	SCI LAB
 
@@ -31,8 +30,8 @@ Note: Keep all the switch faults in off position
 •	Low-pass Filtering: Apply a Butterworth low-pass filter to remove the high- frequency components and recover the original message signal.
 5.	Visualization:
 Plot the message signal, carrier signal, DSBSC modulated signal, and the recovered signal after demodulation.
-# PROCEDURE
 
+# PROCEDURE
 •	Refer Algorithms and write code for the experiment.
 •	Open SCILAB in System
 •	Type your code in New Editor
@@ -48,45 +47,40 @@ Plot the message signal, carrier signal, DSBSC modulated signal, and the recover
 
 # Program
 ```
-clc;
-clear;
-close;
-Ac=17.6;
+Ac=23.2;
 Am=11.6;
-Fc=10160;
-Fm=1160;
-Fs=50000;
-t=0:1/Fs:2/Fm;
-wm=2*3.14*Fm;
-wc=2*3.14*Fc;
-E1=Am*sin(2*3.14*Fm*t);
+fc=11600;
+fm=1160;
+fs=50000;
+t=0:1/fs:2/fm;
+Wm=2*3.14*fm;
+Wc=2*3.14*fc;
+Em=Am*sin(2*3.14*fm*t);
 subplot(3,1,1);
-plot(t,E1);
+plot(t,Em);
 xlabel("Time(s)");
 ylabel("Amplitude");
 title("Message Signal m(t)");
-E2=Ac*sin(2*3.14*Fc*t);
+Ec=Ac*sin(2*3.14*fc*t);
 subplot(3,1,2);
-plot(t,E2);
+plot(t,Ec);
 xlabel("Time(s)");
 ylabel("Amplitude");
 title("Carrier Signal c(t)");
-E3=((Am/2)*cos((wc-wm)*t))-((Am/2)*cos((wc+wm)*t));
-subplot(3,1,3)
-plot(t,E3);
+Edsbsc=((Am/2)*cos((Wc-Wm)*t))-((Am/2)*cos((Wc+Wm)*t));
+subplot(3,1,3);
+plot(t,Edsbsc);
 xlabel("Time(s)");
 ylabel("Amplitude");
-title("DSB-SC Modulated Signal s(t)");
-xgrid();
+title("DSB-SC Modulated Signal"); 
 ```
 
 # Output Graph
-<img width="759" height="578" alt="image" src="https://github.com/user-attachments/assets/3f997803-7e94-4a80-8181-e968622c11a2" />
+![WhatsApp Image 2025-11-04 at 18 25 39_7231fa87](https://github.com/user-attachments/assets/8772f31d-39b5-4e47-a69a-5e8d3372ac6e)
 
 # Tablular Column
-![WhatsApp Image 2025-09-29 at 16 14 13_d01738d2](https://github.com/user-attachments/assets/e443227b-eda3-4128-bdab-8a255c447bdf)
-![WhatsApp Image 2025-09-29 at 16 15 28_1d7cf390](https://github.com/user-attachments/assets/639d6fe8-da9e-41f8-91b9-207bb757a7ad)
-
+![WhatsApp Image 2025-11-04 at 20 46 17_ef8a6b18](https://github.com/user-attachments/assets/25d52a9d-934b-4606-bb02-fc758cf7acf7)
+![WhatsApp Image 2025-11-04 at 20 46 38_a6df924c](https://github.com/user-attachments/assets/88139955-fdfe-42c5-b5d6-dbe23b810adc)
 
 # Result
 
