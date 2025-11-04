@@ -76,7 +76,7 @@ title("DSB-SC Modulated Signal");
 ```
 
 # Output Graph
-![WhatsApp Image 2025-11-04 at 18 25 39_7231fa87](https://github.com/user-attachments/assets/8772f31d-39b5-4e47-a69a-5e8d3372ac6e)
+![WhatsApp Image 2025-11-04 at 18 35 14_250955a1](https://github.com/user-attachments/assets/099509bb-47fe-4850-ae2e-56787427e24e)
 
 # Tablular Column
 ![WhatsApp Image 2025-11-04 at 20 46 17_ef8a6b18](https://github.com/user-attachments/assets/25d52a9d-934b-4606-bb02-fc758cf7acf7)
