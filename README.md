@@ -80,9 +80,10 @@ title("DSB-SC Modulated Signal");
 
 # Tablular Column
 ![WhatsApp Image 2025-11-04 at 20 46 17_ef8a6b18](https://github.com/user-attachments/assets/25d52a9d-934b-4606-bb02-fc758cf7acf7)
+
+# Calculation
 ![WhatsApp Image 2025-11-04 at 20 46 38_a6df924c](https://github.com/user-attachments/assets/88139955-fdfe-42c5-b5d6-dbe23b810adc)
 
 # Result
-
 Thus the DSB-SC-AM Modulation and Demodulation is generated.
 
