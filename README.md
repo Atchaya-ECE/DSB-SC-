@@ -85,5 +85,6 @@ title("DSB-SC Modulated Signal");
 ![WhatsApp Image 2025-11-04 at 20 46 38_a6df924c](https://github.com/user-attachments/assets/88139955-fdfe-42c5-b5d6-dbe23b810adc)
 
 # Result
-Thus the DSB-SC-AM Modulation and Demodulation is generated.
+![WhatsApp Image 2025-11-16 at 21 22 24_6dcc763d](https://github.com/user-attachments/assets/cdc9891f-9252-4ca4-a15b-341e4b22602a)
+
 
